@@ -1,0 +1,52 @@
+.header__about{
+   
+    @media (min-width:320px) {
+            padding: 20px 0px;
+        }
+    
+        @media (min-width:414px) {
+            padding: 25px 0px;
+        }
+    
+        @media (min-width:768px) {
+            padding: 60px 0px;
+        }
+}
+.project{
+    padding: 40px 0px;
+    background-color: fff;
+}
+.box__about{
+    @media (max-width:767px) {
+       display: block; 
+
+    }
+    @media (min-width:768px) {
+    display: flex;
+    gap:20px;
+    }
+}
+
+.gallery{
+    @media (min-width:767px) {
+     display: none;   
+    }
+}
+.discription{
+    font-family: Roboto;
+    font-weight: 500px;
+    @media (max-width:767px) {
+         margin-bottom: 20px;
+    font-size:16px;
+   
+        }
+}
+.subdiscription{
+    font-family: Roboto;
+        font-weight: 500px;
+    
+        @media (max-width:767px) {
+font-size: 16px;
+    
+        }
+}
